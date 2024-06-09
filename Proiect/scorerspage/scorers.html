@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="scorers.js" > </script>
+  <script src="../models/playerdata.js" > </script>
+  <link rel="stylesheet" href="../scorerspage/scorers.css">
+  <title>Top Scorers Table</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-sm navbar-light bg-primary">
+    <div class="container-fluid">
+                <div class="navbar-nav">
+                    <a class="nav-link active" href="#" onclick="back(); return false;">Back to menu</a>
+                </div>
+    </div>
+  </nav>
+  <!-- <div class="row">
+    <div class="col">
+        <select class="form-select leagues" id="leagues" aria-label="Default select example">
+            <option selected>Choose a league</option>
+            <option value="1">La Liga</option>
+            <option value="2">Premier League</option>
+            <option value="3">Serie A</option>
+        </select>
+        <button class="btn btn-primary" id="submitLeague" onclick="submitLeague()" >Submit</button>
+    </div>
+  </div> -->
+  <div class="container mt-5" id="table">
+    <h2 style="color:darkred">Top Scorers</h2>
+    <table class="table" id="topScorersTable">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Player</th>
+          <th scope="col">Goals</th>
+        </tr>
+      </thead>
+      <tbody>
+
+      </tbody>
+    </table>
+  </div>
+
+
+
+</body>
+</html>

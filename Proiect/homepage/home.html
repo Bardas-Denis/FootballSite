@@ -1,0 +1,56 @@
+<!-- home.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../homepage/home.css">
+    <script src="../homepage/home.js"> </script>
+    <title>Home Page</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-light bg-primary">
+        <div class="container-fluid">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" href="#" onclick="back(); return false;">Back to menu</a>
+                    </div>
+        </div>
+    </nav>
+    <div class="row">
+        <div class="col">
+            <select class="form-select leagues" id="leagues" aria-label="Default select example">
+                <option selected>Choose a league</option>
+                <option value="1">La Liga</option>
+                <option value="2">Premier League</option>
+                <option value="3">Serie A</option>
+            </select>
+            <button class="btn btn-primary" id="submitLeague" onclick="submitLeague()" >Submit</button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <select class="form-select teams" id="teams" aria-label="Default select example" disabled>
+                <option selected>Choose a team</option>
+            </select>
+            <button class="btn btn-primary" onclick="submitTeam()" >Submit</button>
+        </div>
+    </div>
+
+    <div class="carousel slide" id="playerCarousel"  data-bs-ride="carousel">
+        <div class="carousel-inner" id="playerCarouselInner">
+            
+        </div>
+        <button class="carousel-control-prev" type="button" id="prev" hidden data-bs-target="#playerCarousel" data-bs-slide="prev" onclick="prevSlide()">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </button>
+        <button class="carousel-control-next" type="button" id="next" hidden data-bs-target="#playerCarousel" data-bs-slide="next" onclick="nextSlide( )">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </button>
+    </div>
+
+ 
+</body>
+</html>

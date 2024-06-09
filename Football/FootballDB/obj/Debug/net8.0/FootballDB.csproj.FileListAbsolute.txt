@@ -1,0 +1,14 @@
+C:\Users\Legion\Desktop\Portofolii\an3\DAW\Football\FootballDB\bin\Debug\net8.0\FootballDB.deps.json
+C:\Users\Legion\Desktop\Portofolii\an3\DAW\Football\FootballDB\bin\Debug\net8.0\FootballDB.runtimeconfig.json
+C:\Users\Legion\Desktop\Portofolii\an3\DAW\Football\FootballDB\bin\Debug\net8.0\FootballDB.dll
+C:\Users\Legion\Desktop\Portofolii\an3\DAW\Football\FootballDB\bin\Debug\net8.0\FootballDB.pdb
+C:\Users\Legion\Desktop\Portofolii\an3\DAW\Football\FootballDB\obj\Debug\net8.0\FootballDB.csproj.AssemblyReference.cache
+C:\Users\Legion\Desktop\Portofolii\an3\DAW\Football\FootballDB\obj\Debug\net8.0\FootballDB.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Legion\Desktop\Portofolii\an3\DAW\Football\FootballDB\obj\Debug\net8.0\FootballDB.AssemblyInfoInputs.cache
+C:\Users\Legion\Desktop\Portofolii\an3\DAW\Football\FootballDB\obj\Debug\net8.0\FootballDB.AssemblyInfo.cs
+C:\Users\Legion\Desktop\Portofolii\an3\DAW\Football\FootballDB\obj\Debug\net8.0\FootballDB.csproj.CoreCompileInputs.cache
+C:\Users\Legion\Desktop\Portofolii\an3\DAW\Football\FootballDB\obj\Debug\net8.0\FootballDB.dll
+C:\Users\Legion\Desktop\Portofolii\an3\DAW\Football\FootballDB\obj\Debug\net8.0\refint\FootballDB.dll
+C:\Users\Legion\Desktop\Portofolii\an3\DAW\Football\FootballDB\obj\Debug\net8.0\FootballDB.pdb
+C:\Users\Legion\Desktop\Portofolii\an3\DAW\Football\FootballDB\obj\Debug\net8.0\FootballDB.genruntimeconfig.cache
+C:\Users\Legion\Desktop\Portofolii\an3\DAW\Football\FootballDB\obj\Debug\net8.0\ref\FootballDB.dll

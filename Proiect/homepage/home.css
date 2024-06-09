@@ -1,0 +1,45 @@
+body {
+    background-image: url("../images/background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+
+.leagues{
+    margin: 1%;
+    width: 50%;
+}
+.teams{
+    margin: 1%;
+    width: 50%;
+}
+.btn{
+    margin-left: 1%;
+}
+.carousel-control-prev{
+    background: none;
+    border: none;
+    margin:1%;
+    width:10%;
+    height:10%;
+    top: 50%;
+}
+.carousel-control-next{
+    background: none;
+    border: none;
+    margin:1%;
+    width:10%;
+    height:10%;
+    top: 50%;
+}
+#playerCarousel .carousel-inner img {
+    max-height: 30%; 
+    max-width: 30%;
+    display: block;
+    margin: auto; 
+}
+
+#playerCarousel{
+    width: 50%;
+}

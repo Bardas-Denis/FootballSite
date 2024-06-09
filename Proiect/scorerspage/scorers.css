@@ -1,0 +1,16 @@
+body {
+    background-image: url("../images/background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    height: 100vh;
+  }
+.leagues{
+    margin: 1%;
+}
+.btn{
+    margin-left: 1%;
+}
+.table{
+    background: #d7d7d7;
+}
